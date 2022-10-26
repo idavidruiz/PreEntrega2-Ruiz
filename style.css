@@ -48,6 +48,8 @@ header nav a:hover {
     margin-left: 5px;
 }
 
+
+
                                 /* PANTALLA PRINCIPAL INDEX  */
 
 .pantalla-principal{
@@ -369,8 +371,9 @@ h1{
 
                                    /* FOOTER  */
 
-footer{
-    height: 150px;
+.footer-container {
+    min-height: 150px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -381,7 +384,27 @@ footer{
 footer h3{
     color: rgb(154, 179, 216);
     margin-bottom: 15px;
+    font-style: italic;
 } 
+
+/* footer redes sociales */
+
+.comunicate {
+    display: grid;
+    border: 3px transparent;
+
+}
+
+.medios {
+    display: flex;
+    align-items: center;
+    
+}
+
+.medios2 {
+    display: flex;
+    align-items: center;
+}
 
 .logo-whatsapp, .logo-gmail{
     height: 20px;
@@ -390,19 +413,69 @@ footer h3{
 
 footer p{
     font-family: Helvetica, sans-serif;
-    color: white;
-    
+    color: white;  
 }
 
-.nro-ws{
-    margin-bottom: 20px;
-}
-/* Derechos reservados */
-footer h4{ 
-    color: white;
+/* logo footer con texto */
+
+
+
+.footer-logo {
+    border: transparent;
+    text-align: center;
 }
 
 footer img{
     height: 100px;
 }
+
+/* Derechos reservados */
+
+.derechos-reservados{
+    display: flex;
+    border: transparent;
+}
+
+footer h4{  
+    color: white;
+}
+
+@media screen and (max-width: 700px){
+    .comunicate, .logo-footer, .derechos-reservados{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .footer-logo{
+        padding: 80px 20px 50px;
+        order: -1;
+    }
+
+    h4 {
+        font-size: 15px;
+        font-style: oblique;
+    }
+
+    .footer-container{
+        height: 450px;
+        display: grid;
+        justify-items: center;
+
+    }
+    .logo-footer{
+        display: flex;
+        height: 150px;
+        width: 150px;
+    }
+
+    .footer-logo{
+        margin: -100px 0px -100px;
+    }
+
+    .derechos-reservados{
+        margin-top: -60px;
+    }
+}
+
 
