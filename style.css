@@ -1,0 +1,401 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+                                            /* INDEX */
+                                        /* FONDO DE PANTALLA */
+
+body {
+    background-image: url(imagenes/wallpaper.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+                                            /* HEADER  */
+
+header {
+    position: fixed;
+    display: flex;
+    height: 70px;
+    min-width: 1870px;
+    background-color: rgba(0, 0, 0, 0.856);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+} 
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding-right: 50px;
+    transition: 0.5s;
+}
+
+header nav a:hover {
+    color: rgb(59, 92, 163);
+}
+
+.logo-png {
+    height: 70px;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+                                /* PANTALLA PRINCIPAL INDEX  */
+
+.pantalla-principal{
+    padding: 300px 400px 200px 150px; 
+    
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 700;
+    display: inline;
+    color: white;
+}
+
+.pantalla-principal a{
+    padding: 40px 40px 40px 40px;
+   
+}
+
+.pantalla-principal ul p{
+    color: rgb(154, 179, 216);
+    font-weight: 600;
+    font-size: 15px;
+    font-style: italic;
+    padding-top: 4px;
+    display: flex;
+}
+
+.servicio a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+    background-color: rgba(78, 78, 78, 0.295);
+    padding: 15px 20px;
+    margin-right: 15px;
+    font-weight: 600;
+    
+}
+
+.servicio a:hover{
+    color: rgb(59, 92, 163);
+    transition: 0.5s;
+}
+    
+
+.video-reel{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 200px;
+}
+
+
+                            /* FIN - PANTALLA PRINCIPAL INDEX  */
+                            
+                                  /* SERVICIOS */
+
+.titulo-servicios{
+    display: flex;
+    color: white;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    padding: 120px;
+}
+
+.img-main{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.servicio-descripcion{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    
+}
+
+.texto-servicios{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 200px 150px 200px;
+    font-size: 15px;
+    color: white;
+}
+
+
+
+                                     /* NOSOTROS */
+.quienes-somos-container{
+    display: grid;
+    border: transparent;
+    padding: 300px 90px 200px 100px;
+}
+
+.titulo-nosotros{
+    font-size: 70px;
+    color: white;
+    
+}
+
+.texto-nosotros{
+    display: grid;
+    color: white;
+    padding: 40px 5px;
+    font-size: 15px;
+    font-style: oblique;
+    
+}
+
+.titulo-que-hacemos{
+    display: grid;
+    width: 270px;
+    text-align: left;
+    border: transparent;
+    color: white;
+    font-size: 30px;
+    padding: 10px 10px;
+    
+}
+
+.texto-que-hacemos{
+    display: grid;
+    color: white;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-style: oblique;
+}
+
+@media screen and (max-width: 650px) {
+    .quienes-somos-container{
+        text-align: left;
+        padding: 300px 30px;
+        transition: 1s;      
+    }
+}
+@media screen and (min-width: 651px) {
+    .quienes-somos-container{
+        transition: 1s;
+    }
+}
+                                   /* PROYECTOS */
+
+.titulo-proyectos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    font-size: 50px;
+    color: white;
+}
+
+.proyectos-videos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px 10px 20px;
+}
+
+.proyectos-videos iframe:hover{
+    box-shadow: 0 5px 15px rgba(209, 174, 255, 0.644);
+    transition: 0.3s;
+}
+
+.proyecto-texto{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-style: oblique;
+    padding-bottom: 300px;
+}
+
+
+.mas-contenido{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.proyecto-boton a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 15px 20px;  
+}
+
+.proyecto-boton{
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px 250px;
+}
+
+.proyecto-boton a:hover{
+    background-color: rgb(80, 52, 105);
+    color: white;
+    transition: 0.5s;
+}
+
+                                 /* GRUPO DE TRABAJO  */
+.grupo-de-trabajo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 120px;
+    font-size: 35px;
+    color: white;
+    
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    margin-right: 100px;
+    
+
+}
+
+.tarjeta{
+    position: relative;
+    width: 260px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.tarjeta:hover{
+    box-shadow: 0 5px 15px rgba(209, 174, 255, 0.644);
+    transform: translatey(-15px);
+}
+
+.tarjeta .cabecera{
+    height: 130px;
+    width: 100%;
+    position: relative;
+}
+
+
+.tarjeta .cabecera .img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    border-radius: 50%;
+    bottom: -30;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.tarjeta .cabecera .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.tarjeta .descripcion{
+    height: 200px;
+    padding: 80px 20px;
+    border-bottom: solid 1px rgb(6, 74, 76, .18);
+    color: white;
+    text-align: center;
+}
+
+.tarjeta .descripcion h3{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.tarjeta .descripcion h4{
+    color: rgb(255, 255, 255);
+    margin-top: 2px;
+    font-style: italic;
+}
+
+.tarjeta .descripcion p{
+    margin-top: 15px;
+}
+
+.perfil{
+    width: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.788);
+    color: black;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+
+.perfil:hover{
+    background-color: rgb(80, 52, 105);
+    color: white;
+    transition: 0.3s;
+}
+
+
+                                   /* FOOTER  */
+
+footer{
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.856);
+
+}
+
+footer h3{
+    color: rgb(154, 179, 216);
+    margin-bottom: 15px;
+} 
+
+.logo-whatsapp, .logo-gmail{
+    height: 20px;
+    margin-right: 12px;
+}
+
+footer p{
+    font-family: Helvetica, sans-serif;
+    color: white;
+    
+}
+
+.nro-ws{
+    margin-bottom: 20px;
+}
+/* Derechos reservados */
+footer h4{ 
+    color: white;
+}
+
+footer img{
+    height: 100px;
+}
+
