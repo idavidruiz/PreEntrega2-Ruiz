@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>DR Productions</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
@@ -23,16 +24,21 @@
 
 <section class="quienes-somos-container">
 
+    <div data-aos="fade-right">
 <div class="grid-quienes-somos">
+    
     <h2 class="titulo-nosotros">¿Quienes<br>somos?</h2>
     <p class="texto-nosotros">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aperiam illo necessitatibus <br> minima quo facere velit quis dolorum nostrum, reiciendis rerum! Quisquam quia atque assumenda <br> eos ab nulla distinctio optio lorem ipsum dolor sit amet consectetur adipisicing elit. Similique <br> aperiam illo necessitatibus minima quo facere velit quis dolorum nostrum, reiciendis rerum! <br> Quisquam quia atque assumenda eos ab nulla distinctio optio.</p>
 </div>
-
+</div>
+<div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
 <div class="grid-que-hacemos">
     <h2 class="titulo-que-hacemos">¿Que hacemos?</h2>
     <p class="texto-que-hacemos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aperiam illo necessitatibus <br> minima quo facere velit quis dolorum nostrum, reiciendis rerum! Quisquam quia atque assumenda <br> eos ab nulla distinctio optio lorem ipsum dolor sit amet consectetur adipisicing elit. Similique <br> aperiam illo necessitatibus minima quo facere velit quis dolorum nostrum, reiciendis rerum! <br> Quisquam quia atque assumenda eos ab nulla distinctio optio. </p>
-</div> 
-
+    </div> 
+</div>
 </section>
 
  <!-- FOOTER -->
@@ -55,5 +61,12 @@
         Derechos de Contenido Reservados <br>
         </p>
 </footer>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 </html>
