@@ -186,12 +186,19 @@ h1{
 @media screen and (max-width: 650px) {
     .quienes-somos-container{
         text-align: left;
-        padding: 300px 30px;
+        padding: 300px 30px 200px;
         transition: 1s;      
+    }
+    .titulo-nosotros{
+        font-size: 50px;
+        transition: 1s;
     }
 }
 @media screen and (min-width: 651px) {
     .quienes-somos-container{
+        transition: 1s;
+    }
+    .titulo-nosotros{
         transition: 1s;
     }
 }
