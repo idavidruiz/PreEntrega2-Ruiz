@@ -23,7 +23,7 @@ header {
     position: fixed;
     display: flex;
     height: 70px;
-    min-width: 1870px;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.856);
     justify-content: space-between;
     align-items: center;
@@ -186,7 +186,7 @@ h1{
 @media screen and (max-width: 650px) {
     .quienes-somos-container{
         text-align: left;
-        padding: 300px 30px 200px;
+        padding: 300px 50px 200px;
         transition: 1s;      
     }
     .titulo-nosotros{
