@@ -444,7 +444,6 @@ footer h4{
     .comunicate, .logo-footer, .derechos-reservados{
         display: flex;
         flex-direction: column;
-        
     }
 
     .footer-logo{
