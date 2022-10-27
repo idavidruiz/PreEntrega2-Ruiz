@@ -34,6 +34,7 @@ header {
 header nav a {
     text-decoration: none;
     color: white;
+    font-size: 12px;
     font-weight: 600;
     padding-right: 50px;
     transition: 0.5s;
@@ -65,9 +66,15 @@ header nav a:hover {
 
 h1{
     font-size: 70px;
-    font-weight: 700;
+    font-weight: 600;
     display: inline;
     color: white;
+}
+
+.pantalla-principal {
+    display: grid;
+    border: transparent;
+    padding: 300px 0px 50px 100px;
 }
 
 .pantalla-principal a{
@@ -79,20 +86,18 @@ h1{
     color: rgb(154, 179, 216);
     font-weight: 600;
     font-size: 15px;
-    font-style: italic;
     padding-top: 4px;
     display: flex;
 }
 
 .servicio a{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
-    font-style: italic;
     color: white;
     background-color: rgba(78, 78, 78, 0.295);
     padding: 15px 20px;
     margin-right: 15px;
-    font-weight: 600;
+    font-size: 12px;
+    
     
 }
 
@@ -103,12 +108,40 @@ h1{
     
 
 .video-reel{
-    display: flex;
+    display: grid;
+    border: transparent;
     justify-content: center;
     margin-top: 60px;
     margin-bottom: 200px;
+    
 }
 
+@media screen and (max-width: 700px){
+    .pantalla-principal{
+        display: grid;
+        text-align: center;
+        padding: 300px 0px 250px;
+        
+    }
+    h1{
+        font-size: 40px;
+        transition: 1s;
+    }
+    .pantalla-principal ul p{
+        display: grid;
+        text-align: center;
+    }
+    .video-reel{
+        display: flex;        
+    }
+}
+
+@media screen and (min-width: 701px){
+    h1{
+        transition: 1s;
+    }
+    
+}
 
                             /* FIN - PANTALLA PRINCIPAL INDEX  */
                             
@@ -393,6 +426,7 @@ footer h3{
     color: rgb(154, 179, 216);
     margin-bottom: 15px;
     font-style: bold;
+    font-size: 16px;
 } 
 
 /* footer redes sociales */
@@ -407,11 +441,13 @@ footer h3{
     display: flex;
     align-items: center;
     
+    
 }
 
 .medios2 {
     display: flex;
     align-items: center;
+    
 }
 
 .logo-whatsapp, .logo-gmail{
@@ -421,6 +457,8 @@ footer h3{
 
 footer p{
     color: white;  
+    font-size: 13px;
+    
 }
 
 /* logo footer con texto */
@@ -444,6 +482,10 @@ footer img{
 }
 
 footer h4{  
+    display: grid;
+    margin-top: -9px;
+    border: transparent;
+    font-size: 12px;
     color: white;
 }
 
@@ -481,6 +523,13 @@ footer h4{
 
     .derechos-reservados{
         margin-top: -60px;
+        justify-content: center;
+        align-items: center;
+    }
+    .medios, .medios2, .comunicate{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
