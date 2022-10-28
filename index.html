@@ -9,6 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DR Productions</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
    
 </head>
 <body>
@@ -26,7 +28,7 @@
     </header>
 
     <!-- INICO SECCION MEDIO PRINCIPAL -->
-    
+    <div data-aos="fade-right">
     <section class="pantalla-principal">
         <h1>Contenido <br> y producción <br> Audio-Visual</h1>
         <br><br>
@@ -39,14 +41,15 @@
         <a href="Servicios.html">Servicios</a>
         <a href="Grupo-trabajo.html">Grupo de trabajo</a>
         </div>
-        
+    </div>
     </section>
+    <div data-aos="zoom-out">
         <section>
             <div class="video-reel">
         <iframe width="1400" height="578" src="https://www.youtube.com/embed/kaCgtFtCn9g" title="REEL EDITOR - DAVID R. PRODUCCIÓN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
      </section>
-        
+    </div>
 
     <!-- FOOTER -->
     
@@ -76,5 +79,11 @@
             </p>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 </html>

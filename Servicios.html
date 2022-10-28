@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>DR Productions</title>
 </head>
 <body>
@@ -25,22 +26,36 @@
     </header>
 
     <section class="servicios-main">
-    
+        <div data-aos="fade-down">
         <h2 class="titulo-servicios">¡Nuestros servicios!</h2>
-
-    <div class="img-main">
-        <img src="imagenes/tilde.png" width="150px" height="150px" alt="">
-        <img src="imagenes/estrecho.png" width="150px" height="150px" alt="">
-        <img src="imagenes/dinero.png" width="150px" height="150px" alt="">
     </div>
 
-    <div class="servicio-descripcion">
-     
-        <h3>100%<br>Seguro</h3>
-        <h3>Plasmamos<br>tu idea</h3>
-        <h3>¡Al mejor<br>precio!</h3>
-    
-    </div>
+ <main class="servicios-container">
+    <div class="iconos">
+        <div class="img-1">
+              <img src="imagenes/tilde.png" width="150px" height="150px" alt="">
+              <div class="icono-text-1">
+                <h3>100%<br>Seguro</h3>
+             </div>
+         </div>
+
+        <div class="img-2">
+              <img src="imagenes/estrecho.png" width="150px" height="150px" alt="">
+                <div class="icono-text-2">
+                <h3>Plasmamos<br>tu idea</h3>
+                </div>
+          </div>
+   
+        <div class="img-3">
+              <img src="imagenes/dinero.png" width="150px" height="150px" alt="">
+              <div class="icono-text-3">
+                <h3>¡Al mejor<br>precio!</h3>
+              </div>
+        </div>
+    </div> 
+ </div>
+</main>
+
     <p class="texto-servicios">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, adipisci eos ratione ipsa eius placeat earum cupiditate distinctio enim ipsum fuga impedit sed sunt, dolores aut natus doloremque necessitatibus. Non!
     Modi cumque atque molestias vero enim, cum deleniti iusto ducimus natus consectetur asperiores laudantium iure totam error quod obcaecati id fuga assumenda autem nemo architecto a? Quo neque beatae enim.
     Inventore omnis veniam quam quo. Iste, incidunt dicta? Perspiciatis repellat minus tempore ipsa a commodi? Distinctio quibusdam aut iusto a molestias in inventore facilis culpa labore debitis! Deleniti, suscipit vel.
@@ -76,5 +91,12 @@
         </p>
     </div>
 </footer>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 </html>
