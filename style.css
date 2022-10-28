@@ -132,16 +132,29 @@ h1{
         display: grid;
         text-align: center;
     }
-    .video-reel{
-        display: flex;        
+    .video-reel {
+        position: relative;
+        padding-bottom: 70%;
+        padding-top: 0px;
+        height: 0;
+        overflow: hidden;
     }
+     
+    .video-reel iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }        
+    
     .servicio{
         display: flex;
         border: transparent;
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-top: 50px;
+        margin-top: -30px;
 
     }
 }
@@ -310,6 +323,7 @@ h3 {
     justify-content: center;
     align-items: center;
     padding-top: 120px;
+    padding-bottom: 50px;
     font-size: 50px;
     color: white;
 }
@@ -334,6 +348,12 @@ h3 {
     padding-bottom: 300px;
 }
 
+.proyecto-texto h2{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
 
 .mas-contenido{
     display: flex;
@@ -387,7 +407,7 @@ h3 {
 .tarjeta{
     position: relative;
     width: 260px;
-    height: 400px;
+    height: 450px;
     background-color: rgba(0, 0, 0, 0.644);
     border-radius: 5px;
     overflow: hidden;
@@ -443,10 +463,12 @@ h3 {
     color: rgb(255, 255, 255);
     margin-top: 5px;
     font-style: italic;
+    font-size: 13px;
 }
 
 .tarjeta .descripcion p{
-    margin-top: 3px;
+    margin-top: 10px;
+    font-size: 12px;
 }
 
 .perfil{
