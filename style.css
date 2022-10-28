@@ -603,6 +603,7 @@ footer h4{
 
     .derechos-reservados{
         margin-top: -60px;
+        text-align: center;
         justify-content: center;
         align-items: center;
     }
