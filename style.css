@@ -441,7 +441,16 @@ h3 {
         font-size: 13px;
     }
     .titulo-proyectos{
-        font-size: 40px;
+        font-size: 35px;
+        transition: 1s;
+    }
+    #carouselExampleIndicators{
+        display: grid;
+        margin: 10%;
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        z-index: 0;
         transition: 1s;
     }
 }
