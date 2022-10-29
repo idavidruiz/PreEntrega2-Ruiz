@@ -373,6 +373,39 @@ h3 {
     color: white;
 }
 
+.row{
+    
+    border: transparent;
+    margin-top: 50px;
+    margin-bottom: 250px;
+    
+}
+
+.col{
+    padding: 50px 2px 20px 2px;
+    margin: 10px 0px;
+    
+}
+
+.col h2{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 23px;
+    color:white;
+    text-shadow: 0px 5px 15px black;;
+}
+
+.col iframe{
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.781);
+    
+}
+
+.col iframe:hover{
+    box-shadow: 0 5px 15px rgba(209, 174, 255, 0.644);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 .proyectos-container{
     display: grid;
 }
@@ -452,6 +485,11 @@ h3 {
         margin-bottom: 0px;
         z-index: 0;
         transition: 1s;
+    }
+    .col iframe:hover{
+        box-shadow: 0 5px 15px rgba(209, 174, 255, 0.644);
+        transform: none;
+        transition: 0.5s;
     }
 }
 
