@@ -273,16 +273,22 @@ h3 {
     .iconos{
         display: grid;
         border: transparent;
-        margin-top: -70px;
+        margin-top: -150px;
         align-items: center;
         transition: 1s;
     }
    .img-2{
     padding-bottom: 70px;
+    transition: 1s;
    }
 
    .img-1{
     padding-bottom: 70px;
+    transition: 1s;
+   }
+
+   .img-3{
+    transition: 1s;
    }
 }
 
@@ -486,6 +492,7 @@ h3 {
 
 }
 
+
 .tarjeta{
     position: relative;
     width: 260px;
@@ -568,6 +575,14 @@ h3 {
     background-color: rgb(80, 52, 105);
     color: white;
     transition: 0.3s;
+}
+
+@media screen and (max-width: 600px){
+    .grupo-de-trabajo h2{
+        font-size: 32px;
+        transition: 1s;
+    }
+
 }
 
 
