@@ -254,8 +254,9 @@ h3 {
     background-color: rgba(33, 8, 56, 0.438);
     color: white;
     margin-top: 340px;
-    margin-bottom: 240px;
-    padding: 150px 90px 150px;
+    margin-bottom: 120px;
+    padding: 150px 200px 150px;
+    font-size: 30px;
     text-align: center;
     justify-content: center;
     
@@ -290,6 +291,19 @@ h3 {
    .img-3{
     transition: 1s;
    }
+
+   .texto-servicios{
+    background-color: rgba(33, 8, 56, 0.438);
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 150px 50px 150px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    transition: 1s;
+    
+}
 }
 
                                      /* NOSOTROS */
@@ -309,7 +323,7 @@ h3 {
 .texto-nosotros{
     display: grid;
     color: white;
-    padding: 40px 5px;
+    padding: 40px 0px;
     font-size: 15px;
     font-style: oblique;
     
