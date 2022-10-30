@@ -468,7 +468,7 @@ h3 {
         font-size: 13px;
     }
     .titulo-proyectos{
-        font-size: 35px;
+        font-size: 30px;
         transition: 1s;
     }
     #carouselExampleIndicators{
@@ -480,6 +480,12 @@ h3 {
         z-index: 0;
         transition: 1s;
     }
+
+    .col, .row{
+        margin: 0px 0px 90px 0px;
+        width: 100%;
+    }
+
     .col iframe:hover{
         box-shadow: 0 5px 15px rgba(209, 174, 255, 0.644);
         transform: none;
