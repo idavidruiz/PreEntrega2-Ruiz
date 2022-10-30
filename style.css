@@ -275,7 +275,7 @@ h3 {
 
 @media screen and (max-width: 950px){
     .titulo-servicios{
-        font-size: 40px;
+        font-size: 35px;
         transition: 1s;
     }
     .texto-servicios{
@@ -284,6 +284,7 @@ h3 {
     }
     .iconos{
         display: grid;
+        padding: 0;
         border: transparent;
         margin-top: -150px;
         align-items: center;
