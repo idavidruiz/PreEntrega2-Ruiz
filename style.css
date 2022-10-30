@@ -289,6 +289,7 @@ h3 {
         padding: 0;
         border: transparent;
         margin-top: -150px;
+
         transition: 1s;
     }
    .img-2{
@@ -470,8 +471,8 @@ h3 {
 
 @media screen and (max-width: 600px){
     .mas-contenido{
-        padding: 0px 10px;
-        font-size: 20px;
+        padding: 0px 15px;
+        font-size: 15px;
     }
     .proyecto-boton a{
         padding: 15px 20px;
