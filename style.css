@@ -471,17 +471,32 @@ h3 {
 
 @media screen and (max-width: 600px){
     .mas-contenido{
-        padding: 0px 15px;
+        padding: 0px 18px;
         font-size: 15px;
     }
     .proyecto-boton a{
         padding: 15px 20px;
         font-size: 13px;
+        margin-top: -30px;
     }
     .titulo-proyectos{
         font-size: 30px;
         transition: 1s;
     }
+
+    .videos-container h2{
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    .videos-container:hover{
+        box-shadow: none;
+    }
+
+    .videos-container iframe{
+        box-shadow: 0 5px 15px rgba(209, 174, 255, 0.644);
+    }
+
     #carouselExampleIndicators{
         display: grid;
         margin: 10%;
@@ -490,6 +505,7 @@ h3 {
         margin-bottom: 0px;
         z-index: 0;
         transition: 1s;
+        box-shadow: 0 5px 15px rgba(209, 174, 255, 0.644);
     }
 
     .col, .row{
