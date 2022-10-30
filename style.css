@@ -128,7 +128,7 @@ h1{
     .pantalla-principal{
         display: grid;
         text-align: center;
-        padding: 250px 0px 250px;
+        padding: 250px 0px 10px;
         
     }
     h1{
@@ -155,7 +155,10 @@ h1{
         height: 100%;
         
     }        
-    
+    .video-reel{
+        margin-bottom: 0;
+    }
+
     .servicio{
         display: flex;
         border: transparent;
