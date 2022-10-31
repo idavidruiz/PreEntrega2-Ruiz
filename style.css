@@ -288,8 +288,7 @@ h3 {
         display: grid;
         padding: 0;
         border: transparent;
-        margin-top: -150px;
-
+        margin-top: -80px;
         transition: 1s;
     }
    .img-2{
@@ -502,7 +501,7 @@ h3 {
         margin: 10%;
         width: 80%;
         margin-top: 10px;
-        margin-bottom: 0px;
+        margin-bottom: 150px;
         z-index: 0;
         transition: 1s;
         box-shadow: 0 5px 15px rgba(209, 174, 255, 0.644);
