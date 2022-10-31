@@ -537,8 +537,6 @@ h3 {
     justify-content: center;
     min-height: 70vh;
     margin-right: 60px;
-    
-
 }
 
 
@@ -628,10 +626,11 @@ h3 {
 
 @media screen and (max-width: 600px){
     .grupo-de-trabajo h2{
-        font-size: 32px;
+        font-size: 27px;
         transition: 1s;
     }
 
+    .main
 }
 
 
